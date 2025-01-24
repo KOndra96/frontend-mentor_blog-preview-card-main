@@ -13,7 +13,7 @@ body {
     font-style: normal;
 
     background: var(--color-yellow, hsl(47, 88%, 63%));
-    
+
     margin-top: 5rem;
 
     & p {
@@ -31,7 +31,7 @@ body {
 
         justify-content: center;
         align-items: stretch;
-        
+
     }
 
     & .card {
@@ -43,23 +43,24 @@ body {
         background: var(--color-white, #fff);
         border: 2px solid #000;
         border-radius: 1rem;
-        box-shadow: 6px 6px 1px var(--color-darkgray, hsl(0, 0%, 7%),);
+        box-shadow: 6px 6px 1px var(--color-darkgray, hsl(0, 0%, 7%), );
 
         margin-bottom: 3rem;
         padding: 1.25rem;
 
-        & > p {
+        &>p {
             color: var(--color-gray, hsl(0, 0%, 42%));
         }
 
-        & h2, .author {
+        & h2,
+        .author {
             font-weight: 800;
         }
 
         & h2 {
             margin-bottom: 0;
         }
-        
+
         & .author {
             display: flex;
             align-items: center;
@@ -105,6 +106,23 @@ body {
                 border-radius: 0.75rem;
             }
         }
+
+        & .author p,
+        & h2 {
+            cursor: pointer;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: var(--color-yellow, hsl(47, 88%, 63%));
+            }
+        }
+
+        & .author img {
+            cursor: pointer;
+        }
+
+        /* ye i know, i just didnt want to add another <a> element, chose to use this approach than to do the same thing over and over ^^ */
     }
 }
 
@@ -120,7 +138,7 @@ body {
     .card {
         &:not(:nth-child(2n)) {
             margin-right: 2rem;
-        }   
+        }
     }
 }
 
