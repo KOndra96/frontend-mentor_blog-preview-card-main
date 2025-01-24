@@ -1,0 +1,27 @@
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray: hsl(0, 0%, 42%);
+    --color-darkgray: hsl(0, 0%, 7%);
+}
+
+body {
+    background: var(--color-yellow, hsl(47, 88%, 63%));
+    
+    
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
