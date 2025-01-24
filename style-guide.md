@@ -13,8 +13,6 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 16px
-
 ### Font
 
 - Family: [Figtree](https://fonts.google.com/specimen/Figtree)
