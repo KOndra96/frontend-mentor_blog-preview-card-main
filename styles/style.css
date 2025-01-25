@@ -41,7 +41,7 @@ body {
         min-width: 15rem;
 
         background: var(--color-white, #fff);
-        border: 2px solid #000;
+        border: 1px solid #000;
         border-radius: 1rem;
         box-shadow: 6px 6px 1px var(--color-darkgray, hsl(0, 0%, 7%), );
 
