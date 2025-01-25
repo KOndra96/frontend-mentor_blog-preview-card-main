@@ -73,37 +73,32 @@ body {
             }
         }
 
-        & aside {
-            display: flex;
-            flex-wrap: wrap;
-
-            & .category {
-                margin-right: 1rem;
-
-                & p {
-                    padding: 0.25rem 0.5rem;
-                    border-radius: 0.25rem;
-                    background-color: var(--color-yellow, hsl(47, 88%, 63%));
-                }
-            }
-
-            & .metadata {
-                flex-basis: 100%;
-
-                & p {
-                    margin: 0;
-                }
-            }
-
-        }
 
         & header {
             display: flex;
             flex-wrap: wrap;
-
             & img {
                 width: 100%;
                 border-radius: 0.75rem;
+            }
+
+            & p {
+                display: flex;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+                margin-top: 1rem;
+                margin-bottom: 0.3rem;
+
+                & .category {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: 1rem;
+                    margin-bottom: 0.25rem;
+                    padding: 0.25rem 0.5rem;
+                    border-radius: 0.25rem;
+                    background-color: var(--color-yellow, hsl(47, 88%, 63%));
+                }
+
             }
         }
 
